@@ -166,7 +166,7 @@ public class PushPlugin extends CordovaPlugin {
 					json.put(key, value);
 				} else if (key.equals("msgcnt")) {
 					json.put("count", value);
-				} else if (key.equals("soundname")) {
+				} else if (key.equals("soundname") || key.equals("sound")) {
 					json.put("sound", value);
 				}
 				else if ( value instanceof String ) {
